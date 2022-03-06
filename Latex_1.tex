@@ -1,0 +1,38 @@
+\documentclass[12pt]{article} 
+\usepackage[utf8]{inputenc}
+\usepackage{mathtools}
+\usepackage[top=1in]{geometry}
+\usepackage{hyperref}
+
+
+\title{Hello World!}
+\author{Bilal Alpaslan}
+\date{March 13, 2021}
+
+\begin{document}
+\maketitle
+\section{Getting Started}
+
+\textbf{{Hello World!}} Today I am learning \LaTeX. \LaTeX \; is a great program for writing math. I can write in line math such as $a^2 + b^2 = c^2$. I can also give equations their own space:
+
+\begin{equation}
+    \gamma^2 + \theta^2 = \omega^2
+\end{equation}
+"Maxwell's equations" are named for James Clark Maxwell and are as follow:
+\begin{align}
+\vec{\nabla}\cdot\vec{E}\quad &=\quad \frac{\rho}{\varepsilon_0} &&\text{Gauss's Law} \\
+\vec{\nabla}\cdot\vec{B}\quad &=\quad 0 &&\text{Gauss's Law for Magnetism} \\
+\vec{\nabla}\times\vec{B}\quad &=\quad -\frac{\partial\vec{B}}{\partial t} &&\text{Faraday's Law of Induction} \\
+\vec{\nabla}\times\vec{E}\quad &=\quad \mu_0 \left(\epsilon_0\frac{\partial\vec{B}}{\partial t}+\vec{J}\right) &&\text{Ampere's Circuital Law}
+\end{align}
+
+Equations 2, 3, 4, and 5 are some of the most important in Physics.
+\section{What about Matrix Equations?}
+\centering
+\begin{pmatrix} a_1_1 & a_1_2 & \cdots & a_1_n \\ a_2_1 & a_2_2 & \cdots & a_2_n \\ \vdots & \vdots & \ddots & \vdots \\ a_n_1 & a_n_2 & \cdots & a_n_n \end{pmatrix} 
+\begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix} = 
+\begin{matrix}
+w_1 \\ w_2 \\ \vdots \\ w_n
+\end{matrix}
+
+\end{document}
